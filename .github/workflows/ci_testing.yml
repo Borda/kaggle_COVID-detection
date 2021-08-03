@@ -2,9 +2,9 @@ name: CI complete testing
 
 # see: https://help.github.com/en/actions/reference/events-that-trigger-workflows
 on:  # Trigger the workflow on push or pull request, but only for the main branch
-  push: {}
-  pull_request:
+  push:
     branches: [main]
+  pull_request: {}
 
 jobs:
   pytest:
@@ -51,7 +51,7 @@ jobs:
 
     - name: Tests
       run: |
-        python -m pytest . -v --cov=challenge_xyz --junitxml=junit/test-results-${{ runner.os }}-${{ matrix.python-version }}.xml
+        python -m pytest . -v --cov=kaggle_covid --junitxml=junit/test-results-${{ runner.os }}-${{ matrix.python-version }}.xml
 
     - name: Upload pytest test results
       uses: actions/upload-artifact@v2
