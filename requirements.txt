@@ -1,6 +1,7 @@
 torch>=1.6
-lightning-flash>=0.4
+lightning-flash[image]>=0.5
 python-gdcm
 pydicom
 opencv-python-headless
 pycocotools
+fire
