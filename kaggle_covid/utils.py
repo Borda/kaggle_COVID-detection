@@ -26,11 +26,11 @@ def load_image(
 
     meta.update({
         'boxes': deepcopy(meta.get("boxes")) or [],
-        'body': getattr(dicom, "BodyPartExamined"),
-        'interpret': getattr(dicom, "PhotometricInterpretation"),
-        'original_spacing': getattr(dicom, "ImagerPixelSpacing"),
+        'body': dicom.get("BodyPartExamined"),
+        'interpret': dicom.get("PhotometricInterpretation"),
+        'original_spacing': dicom.get("ImagerPixelSpacing"),
         'original_image_shape': img.shape,
-        'spacing': getattr(dicom, "ImagerPixelSpacing"),
+        'spacing': dicom.get("ImagerPixelSpacing", (1.0, 1.0)),
         'image_shape': img.shape,
     })
     if dicom.PhotometricInterpretation == 'MONOCHROME1':
