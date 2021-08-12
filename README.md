@@ -1,4 +1,4 @@
-# Kaggle COVID Detection
+# Kaggle: COVID Detection
 
 [![CI complete testing](https://github.com/Borda/kaggle_COVID-detection/actions/workflows/ci_testing.yml/badge.svg?branch=main&event=push)](https://github.com/Borda/kaggle_COVID-detection/actions/workflows/ci_testing.yml)
 [![Code formatting](https://github.com/Borda/kaggle_COVID-detection/actions/workflows/code-format.yml/badge.svg?branch=main&event=push)](https://github.com/Borda/kaggle_COVID-detection/actions/workflows/code-format.yml)
