@@ -5,17 +5,36 @@
 [![codecov](https://codecov.io/gh/Borda/kaggle_COVID-detection/branch/main/graph/badge.svg)](https://codecov.io/gh/Borda/kaggle_COVID-detection)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Borda/kaggle_COVID-detection/main.svg)](https://results.pre-commit.ci/latest/github/Borda/kaggle_COVID-detection/main)
 
-This is a simple template project to Kaggle participation...
+In this competition, you’ll identify and localize COVID-19 abnormalities on chest radiographs.
+In particular, you'll categorize the radiographs as negative for pneumonia or typical, indeterminate, or atypical for COVID-19.
+Organizers provided dataset - imaging data and annotations from a group of radiologists.
 
-### Expected content:
+![Sample images](./assets/image-class-samples.jpg)
 
-- a core package with functionalities used across scripts and notebooks
-- tutorial/experiment notebooks (in _notebook_ folder if needed)
-- \[optional\] some functionality testing aka unittests or doctests
+In other words the task to solve is image classification accompanied by attention
 
-### What to write here:
+- user shall classify patient COVID19 situation and also tell why think so, what are the regions in the scan that makes him think this case is positive.
 
-- simple completion description + link
-- shortly what task it is to solve
-- list/link online sources
-- link kernels/submissions
+![Label distribution](./assets/labels-pie.png)
+
+## Experimentation
+
+### install this tooling
+
+A simple way how to use this basic functions:
+
+```bash
+! pip install https://github.com/Borda/kaggle_COVID-detection/archive/main.zip
+```
+
+### run notebooks in Kaggle
+
+- [COVID199 detection with Flash ⚡](https://www.kaggle.com/jirkaborovec/covid-detection-with-lightning-flash)
+- [COVID199 detection - predictions](https://www.kaggle.com/jirkaborovec/covid-detection-with-lightning-flash-predictions)
+
+### some results
+
+Training progress with ResNet50 with training  for 50 epochs:
+
+![Training process](./assets/logging-loss.png)
+![Training process](./assets/logging-metric.png)

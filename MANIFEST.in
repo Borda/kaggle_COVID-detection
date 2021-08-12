@@ -10,6 +10,8 @@ recursive-include kaggle_covid *.md
 # Include the license file
 include LICENSE
 
+recursive-include assets *.jpg *.png
+
 exclude *.sh
 exclude *.toml
 exclude *.svg
