@@ -1,5 +1,6 @@
 torch>=1.6
-lightning-flash[image]>=0.5
+# lightning-flash[image]>=0.5  # install master till v0.5 is released
+git+https://github.com/PyTorchLightning/lightning-flash.git#egg=lightning-flash[audio,image]
 python-gdcm
 pydicom
 opencv-python-headless
