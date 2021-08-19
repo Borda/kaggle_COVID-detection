@@ -1,4 +1,4 @@
-# Kaggle: COVID Detection
+# Kaggle: [COVID-19 Detection](https://www.kaggle.com/c/siim-covid19-detection)
 
 [![CI complete testing](https://github.com/Borda/kaggle_COVID-detection/actions/workflows/ci_testing.yml/badge.svg?branch=main&event=push)](https://github.com/Borda/kaggle_COVID-detection/actions/workflows/ci_testing.yml)
 [![Code formatting](https://github.com/Borda/kaggle_COVID-detection/actions/workflows/code-format.yml/badge.svg?branch=main&event=push)](https://github.com/Borda/kaggle_COVID-detection/actions/workflows/code-format.yml)
@@ -27,10 +27,14 @@ A simple way how to use this basic functions:
 ! pip install https://github.com/Borda/kaggle_COVID-detection/archive/main.zip
 ```
 
+### see local notebook
+
+- [COVID19 detection with Flash ⚡](notebooks/COVID-detection-with-Lightning-Flash.ipynb)
+
 ### run notebooks in Kaggle
 
-- [COVID199 detection with Flash ⚡](https://www.kaggle.com/jirkaborovec/covid-detection-with-lightning-flash)
-- [COVID199 detection - predictions](https://www.kaggle.com/jirkaborovec/covid-detection-with-lightning-flash-predictions)
+- [COVID19 detection with Flash ⚡](https://www.kaggle.com/jirkaborovec/covid-detection-with-lightning-flash)
+- [COVID19 detection - predictions](https://www.kaggle.com/jirkaborovec/covid-detection-with-lightning-flash-predictions)
 
 ### some results
 
