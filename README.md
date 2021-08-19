@@ -27,6 +27,11 @@ A simple way how to use this basic functions:
 ! pip install https://github.com/Borda/kaggle_COVID-detection/archive/main.zip
 ```
 
+### see local notebook
+
+- [COVID19 detection with Flash ⚡](notebooks/COVID-detection-with-Lightning-Flash.ipynb)
+
+
 ### run notebooks in Kaggle
 
 - [COVID19 detection with Flash ⚡](https://www.kaggle.com/jirkaborovec/covid-detection-with-lightning-flash)
